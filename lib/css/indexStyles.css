@@ -18,8 +18,12 @@
     color: #ffa8de;
 }
 
+
 #About_Us {
-    margin: 0 auto;
+  border:solid;
+  border-radius: 22px;
+  background-color: #82cded;
+  margin: 0 auto;
 }
 
 
