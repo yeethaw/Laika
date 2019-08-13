@@ -1,0 +1,129 @@
+/* Dont Touch!!!
+
+    font-family: 'Karla', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'EB Garamond', serif; 
+*/
+
+body {
+    padding: 0px;
+    margin: 0;
+    /* background-color: */
+    /* background-image: linear-gradient( rgba(255, 53, 172) rgba(255, 178, 178)); */
+}
+
+.page {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: radial-gradient(circle, white, #FDCDE9, white);
+}
+
+#logo1 {
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    height: 50px;
+    width: auto;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient( 200deg, rgb(253, 153, 212), rgb(255, 176, 176, 0.555));
+    border-radius: 22px;
+    width: 30vw;
+    /* font-family: 'Quicksand', sans-serif; */
+}
+
+.email,
+.password {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    font-size: 100px;
+    /* width: 100%; */
+}
+
+#emailInput,
+#passwordInput {
+    height: 20px;
+    width: 100%;
+    border: solid white;
+    border-radius: 22px;
+    padding: 2px;
+}
+
+.box {
+    padding: 10px 5px;
+}
+
+.break {
+    height: 15px;
+}
+
+#submit_button {
+    border-radius: 22px;
+    border: white solid;
+    background-color: white;
+    width: 100%;
+}
+
+#customBtn {
+    display: inline-block;
+    background: white;
+    color: #444;
+    width: 190px;
+    border-radius: 5px;
+    border: thin solid #888;
+    box-shadow: 1px 1px 1px grey;
+    white-space: nowrap;
+}
+
+#customBtn:hover {
+    cursor: pointer;
+}
+
+
+/* @media(max-width: 375px) {
+    /* #emailInput #passwordInput {
+        width: 
+    } */
+
+
+/* } */
+
+#work {
+    /* background-image: linear-gradient( 90deg, rgba(255, 53, 172), rgba(255, 178, 178)); */
+    background-image: radial-gradient(circle, rgb(255, 53, 172), rgb(255, 178, 178), rgb(255, 53, 172));
+}
+
+.signUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-image: linear-gradient( 200deg, rgb(253, 153, 212), rgb(255, 176, 176, 0.555)); */
+    border-radius: 22px;
+    width: 30vw;
+    font-family: 'Rubik', sans-serif;
+}
+
+.title {
+    margin: 0px;
+}
+
+#title,
+#or {
+    font-family: 'EB Garamond', sans-serif;
+    font-size: 30px;
+}

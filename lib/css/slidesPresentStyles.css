@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+iframe {
+    width: 100vh;
+    height: 100vh;
+}
+
+#presImg {
+    height: 100px;
+    width: auto;
+}

@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+}
+
+.logo {
+    width: 5%;
+    height: auto;
+}
+
+.nav {
+    background-color: black;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 10vh;
+}
+
+#logo {
+    height: 50px;
+    width: auto;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+#userPic {
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: radial-gradient(circle, white, #FDCDE9, white);
+}
+
+.buttons {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    width: 20vw;
+}
+
+.but {
+    border: none;
+    border-radius: 22px;
+    background-image: linear-gradient(white, #FDDAEC, #f900bc80);
+    font-size: 24px;
+}
