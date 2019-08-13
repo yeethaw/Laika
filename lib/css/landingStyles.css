@@ -38,7 +38,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 90vh;
-    background-image: radial-gradient(circle, white, #b4e1ff, white);
+    background-image: linear-gradient(#ffecff,#b4e1ff);
 }
 
 .buttons {
