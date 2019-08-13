@@ -24,7 +24,7 @@
     align-items: center;
     justify-content: center;
     height: 90vh;
-    background-image: radial-gradient(circle, white, #FDCDE9, white);
+    background-image: linear-gradient(#ffecff,#b4e1ff);
 }
 
 #appImg {
