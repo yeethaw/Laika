@@ -18,6 +18,14 @@
     color: #F90093;
 }
 
+#About_Us {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+
 .content {
     display: flex;
     flex-flow: column;
