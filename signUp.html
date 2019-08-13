@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700|Rubik:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lib/css/signUpStyles.css">
+    <title>CloudPresent - Sign Up</title>
+    <meta name="google-signin-client_id" content="1093238211073-kie44ss39m3e0ubj1g50nr5lv4t4r4rv.apps.googleusercontent.com">
+    <script src="lib/js/bcrypt.min.js"></script>
+    <script src="lib/js/signUpScripts.js" defer></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyD0msy8Z6zMOuDZ-wueD4OQH8QmOvVSKqs",
+            authDomain: "cloudpresent-b29bf.firebaseapp.com",
+            databaseURL: "https://cloudpresent-b29bf.firebaseio.com",
+            projectId: "cloudpresent-b29bf",
+            storageBucket: "",
+            messagingSenderId: "1093238211073",
+            appId: "1:1093238211073:web:c82beca89a5183c9"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+
+<body>
+    <div id="nav">
+        <a href="index.html">
+            <img id="logo" src="\assets\CloudPresent (Transparent).svg" alt="cloud" height="100" width="auto">
+        </a>
+    </div>
+    <div class="page">
+        <div class="box">
+            <div id="wrong">
+            </div>
+            <div class="title">
+                <h1>Sign Up</h1>
+            </div>
+            <div class="firstname">
+                <input id="firstName" placeholder="First name">
+            </div>
+            <div class="break"></div>
+            <div class="lastname">
+                <input id="lastName" placeholder="Last name">
+            </div>
+            <div class="break"></div>
+            <div class="email">
+                <input id="emailInput" placeholder="johndoe@example.com">
+            </div>
+            <div class="break"></div>
+            <div class="password">
+                <input type="password" id="passwordInput" placeholder="New password">
+            </div>
+            <div class="break"></div>
+            <div class="passwordCon">
+                <input type="password" id="passwordConfirm" placeholder="Confirm password">
+            </div>
+            <div class="break"></div>
+            <div class="submit">
+                <button id="submit_button">Submit</button>
+            </div>
+            <div class="or">
+                <h1>OR</h1>
+            </div>
+            <div id="my-signin2"></div>
+            <!-- <div id="gSignInWrapper">
+                <span class="label">Sign in with:</span>
+                <div id="customBtn" class="customGPlusSignIn">
+                  <span class="icon"></span>
+                  <span class="buttonText">Google</span>
+                </div>
+              </div> -->
+            <div class="break"></div>
+            <div class="login">
+                <a href="login.html">Log In Here</a>
+            </div>
+        </div>
+        <div class="break"></div>
+    </div>
+    <!-- <script>startApp();</script> -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+</body>
+
+</html>
