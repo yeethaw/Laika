@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
-    color: #F90093;
+    background-color: #232459;
+    color: #ffa8de;
     padding: 0 10px;
     height: 10vh;
 }
@@ -15,7 +15,7 @@
 
 .nav a {
     text-decoration: none;
-    color: #F90093;
+    color: #ffa8de;
 }
 
 #About_Us {
