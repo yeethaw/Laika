@@ -18,6 +18,7 @@
     color: #ffa8de;
 }
 
+
 #About_Us {
   border:solid;
   border-radius: 22px;
@@ -91,7 +92,6 @@ body {
     height: 90vh;
     background-image: radial-gradient(circle, white, #FDCDE9, white);
 }
-
 .prezButton {
     display: flex;
     flex-flow: row;
