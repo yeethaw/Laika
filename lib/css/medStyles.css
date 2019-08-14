@@ -32,6 +32,8 @@
     justify-content: center;
     height: 90vh;
     background-image: linear-gradient(#ffecff,#b4e1ff);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #appImg {
