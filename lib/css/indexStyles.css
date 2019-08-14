@@ -78,6 +78,9 @@ body {
     border: none;
     border-radius: 22px;
     background-image: linear-gradient(white, #FDDAEC, #f900bc80);
+    box-sizing: border-box;
+    width 100%;
+    height: 100%;
     font-size: 24px;
 }
 
