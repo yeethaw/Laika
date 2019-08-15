@@ -45,8 +45,8 @@ margin: 0 auto;
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(#ffecff,#b4e1ff);
   height: auto;
+  background-image: linear-gradient(#ffecff,#b4e1ff);
 }
 
 #appImg {
@@ -56,14 +56,6 @@ margin: 0 auto;
 
 body {
   margin: 0px;
-}
-
-.cards {
-  display: flex;
-  flex-flow: row;
-  justify-content: space-evenly;
-  width: 100%;
-  background-color: white;
 }
 
 /* body {
