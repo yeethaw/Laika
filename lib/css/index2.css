@@ -45,8 +45,8 @@ margin: 0 auto;
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  height: auto;
   background-image: linear-gradient(#ffecff,#b4e1ff);
+  height: auto;
 }
 
 #appImg {
