@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+.nav {
+  background-color: white;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+.tab {
+  display: flex; 
+  flex-flow: row;
+  padding: 0px;
+}
+.left img {
+  height: 50px;
+  width: auto;
+}
+.right a {
+  margin: 0px 5px;
+}
+.left,
+.right {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.tabHead {
+  margin: 0px;
+}
+.content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-image: linear-gradient(#ffecff,#b4e1ff);
+  height: auto;
+}
+.head {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.head img {
+  height: 350px;
+  width: auto;
+}
+#about {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100vw;
+}
+.cards {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: white;
+}
