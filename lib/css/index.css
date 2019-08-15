@@ -1,0 +1,100 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/mac.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-image: linear-gradient(#ffecff,#b4e1ff);
+}
+
+/* body {
+  margin: 0;
+}
+
+.nav {
+  background-color: white;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+.tab {
+  display: flex; 
+  flex-flow: row;
+  padding: 0px;
+}
+
+.left img {
+  height: 50px;
+  width: auto;
+}
+
+.right a {
+  margin: 0px 5px;
+}
+
+.left,
+.right {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.tabHead {
+  margin: 0px;
+}
+
+.content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-image: linear-gradient(#ffecff,#b4e1ff);
+  height: auto;
+}
+
+.head {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.head img {
+  height: 350px;
+  width: auto;
+}
+
+#about {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100vw;
+}
+
+.cards {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: white;
+} */
