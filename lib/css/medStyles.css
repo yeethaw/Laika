@@ -30,7 +30,7 @@
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    height: 90vh;
+    height: auto;
     background-image: linear-gradient(#ffecff,#b4e1ff);
     background-size: cover;
     background-repeat: no-repeat;
